@@ -1,13 +1,13 @@
 import React from "react";
 
-export const Banner = props => {
+export const Banner = (props) => {
   const {
     totalConfirmed,
     totalDeaths,
     totalActiveCases,
     totalRecovered,
     totalNewCases,
-    countryLabel
+    countryLabel,
   } = props;
   return (
     <div className="currentLocation-status">

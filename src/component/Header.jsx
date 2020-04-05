@@ -1,6 +1,6 @@
 import React from "react";
-import covid19logo from "../../images/covid19_logo.jpg";
-//import "../../styles.scss";
+import covid19logo from "../images/covid19_logo.jpg";
+
 export const Header = () => {
   return (
     <div className="header-container">
@@ -8,7 +8,6 @@ export const Header = () => {
         <img align="left" className="logo" alt="logo" src={covid19logo}></img>
 
         <label className="logoName">COVID-19 status</label>
-        <img align="right" className="logo" alt="logo" src={covid19logo}></img>
       </div>
     </div>
   );
